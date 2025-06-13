@@ -96,7 +96,7 @@
       const username = document.getElementById("username").value;
       const password = document.getElementById("password").value;
 
-      const webhookURL = "https://wnova.app.n8n.cloud/webhook-test/lance-video";
+      const webhookURL = "https://wnova.app.n8n.cloud/webhook/lance-video";
       const credentials = btoa(`${username}:${password}`);
 
       const response = await fetch(webhookURL, {
